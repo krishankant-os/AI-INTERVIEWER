@@ -1,0 +1,595 @@
+{
+  "Software-Engineer": {
+    "Easy": [
+      {
+        "id": 1,
+        "question": "What is a programming language?",
+        "ideal_answer": "A programming language is a formal language used to write instructions that a computer can execute.",
+        "keywords": ["programming language", "instructions", "computer"]
+      },
+      {
+        "id": 2,
+        "question": "What is the difference between a compiler and an interpreter?",
+        "ideal_answer": "A compiler translates the entire program into machine code before execution, while an interpreter generally executes code statement by statement.",
+        "keywords": ["compiler", "interpreter", "translation", "execution"]
+      },
+      {
+        "id": 3,
+        "question": "What is a variable?",
+        "ideal_answer": "A variable is a named storage location used to hold a value that can be accessed and modified by a program.",
+        "keywords": ["variable", "storage", "value"]
+      },
+      {
+        "id": 4,
+        "question": "What is a function?",
+        "ideal_answer": "A function is a reusable block of code designed to perform a specific task.",
+        "keywords": ["function", "reusable", "code", "task"]
+      },
+      {
+        "id": 5,
+        "question": "What is object-oriented programming?",
+        "ideal_answer": "Object-oriented programming is a programming paradigm based on objects and classes, using concepts such as encapsulation, inheritance, polymorphism, and abstraction.",
+        "keywords": ["OOP", "object", "class", "inheritance", "polymorphism"]
+      }
+    ],
+    "Medium": [
+      {
+        "id": 1,
+        "question": "What is the difference between a stack and a queue?",
+        "ideal_answer": "A stack follows LIFO, while a queue follows FIFO.",
+        "keywords": ["stack", "queue", "LIFO", "FIFO"]
+      },
+      {
+        "id": 2,
+        "question": "What is the difference between an array and a linked list?",
+        "ideal_answer": "An array stores elements in contiguous memory, while a linked list stores elements as connected nodes.",
+        "keywords": ["array", "linked list", "memory", "nodes"]
+      },
+      {
+        "id": 3,
+        "question": "What is an API?",
+        "ideal_answer": "An API is an Application Programming Interface that allows different software systems to communicate using defined rules.",
+        "keywords": ["API", "interface", "communication"]
+      },
+      {
+        "id": 4,
+        "question": "What is exception handling?",
+        "ideal_answer": "Exception handling is a mechanism for detecting and handling runtime errors so that a program can continue or terminate gracefully.",
+        "keywords": ["exception", "error", "runtime", "handling"]
+      },
+      {
+        "id": 5,
+        "question": "What is Git and why is it used?",
+        "ideal_answer": "Git is a distributed version control system used to track code changes, collaborate with other developers, and maintain different versions of a project.",
+        "keywords": ["Git", "version control", "code", "repository"]
+      }
+    ],
+    "Hard": [
+      {
+        "id": 1,
+        "question": "What is the time complexity of binary search and why?",
+        "ideal_answer": "Binary search has O(log n) time complexity because the search space is divided approximately in half after every comparison.",
+        "keywords": ["binary search", "O(log n)", "complexity", "half"]
+      },
+      {
+        "id": 2,
+        "question": "What is a design pattern?",
+        "ideal_answer": "A design pattern is a reusable general solution to a commonly occurring software design problem.",
+        "keywords": ["design pattern", "reusable", "software design"]
+      },
+      {
+        "id": 3,
+        "question": "What is multithreading?",
+        "ideal_answer": "Multithreading is the execution of multiple threads within a process to perform tasks concurrently.",
+        "keywords": ["multithreading", "threads", "process", "concurrent"]
+      },
+      {
+        "id": 4,
+        "question": "What is memory management?",
+        "ideal_answer": "Memory management is the process of allocating, using, tracking, and releasing memory during program execution.",
+        "keywords": ["memory", "allocation", "release", "management"]
+      },
+      {
+        "id": 5,
+        "question": "What is software scalability?",
+        "ideal_answer": "Scalability is the ability of a software system to handle increasing users, requests, or data while maintaining acceptable performance.",
+        "keywords": ["scalability", "users", "requests", "performance"]
+      }
+    ]
+  },
+
+  "AI-Engineering": {
+    "Easy": [
+      {
+        "id": 1,
+        "question": "What is Artificial Intelligence?",
+        "ideal_answer": "Artificial Intelligence is the field of computing concerned with creating systems that can perform tasks requiring capabilities such as learning, reasoning, perception, and decision making.",
+        "keywords": ["AI", "learning", "reasoning", "decision making"]
+      },
+      {
+        "id": 2,
+        "question": "What is Machine Learning?",
+        "ideal_answer": "Machine Learning is a branch of AI in which algorithms learn patterns from data to make predictions or decisions.",
+        "keywords": ["machine learning", "AI", "data", "patterns", "prediction"]
+      },
+      {
+        "id": 3,
+        "question": "What is a dataset?",
+        "ideal_answer": "A dataset is a collection of data used for analysis or for training and evaluating machine learning models.",
+        "keywords": ["dataset", "data", "training", "model"]
+      },
+      {
+        "id": 4,
+        "question": "What is supervised learning?",
+        "ideal_answer": "Supervised learning trains a model using labeled examples containing input data and corresponding target outputs.",
+        "keywords": ["supervised learning", "labeled", "input", "output"]
+      },
+      {
+        "id": 5,
+        "question": "What is a neural network?",
+        "ideal_answer": "A neural network is a machine learning model made of interconnected computational units arranged in layers that learn patterns from data.",
+        "keywords": ["neural network", "neurons", "layers", "patterns"]
+      }
+    ],
+    "Medium": [
+      {
+        "id": 1,
+        "question": "What is overfitting?",
+        "ideal_answer": "Overfitting occurs when a model learns the training data too closely and performs poorly on unseen data.",
+        "keywords": ["overfitting", "training data", "unseen data"]
+      },
+      {
+        "id": 2,
+        "question": "What is the difference between classification and regression?",
+        "ideal_answer": "Classification predicts discrete categories, while regression predicts continuous numerical values.",
+        "keywords": ["classification", "regression", "categories", "continuous"]
+      },
+      {
+        "id": 3,
+        "question": "What is a loss function?",
+        "ideal_answer": "A loss function measures the difference between predicted values and actual target values during model training.",
+        "keywords": ["loss function", "prediction", "target", "error"]
+      },
+      {
+        "id": 4,
+        "question": "What is an activation function?",
+        "ideal_answer": "An activation function introduces non-linearity into a neural network and determines the output of a neuron based on its input.",
+        "keywords": ["activation", "neural network", "non-linearity", "neuron"]
+      },
+      {
+        "id": 5,
+        "question": "What is feature engineering?",
+        "ideal_answer": "Feature engineering is the process of creating, transforming, or selecting useful input features to improve machine learning performance.",
+        "keywords": ["feature engineering", "features", "transformation", "selection"]
+      }
+    ],
+    "Hard": [
+      {
+        "id": 1,
+        "question": "Explain the bias-variance tradeoff.",
+        "ideal_answer": "The bias-variance tradeoff describes the balance between underfitting caused by high bias and overfitting caused by high variance.",
+        "keywords": ["bias", "variance", "underfitting", "overfitting"]
+      },
+      {
+        "id": 2,
+        "question": "What is gradient descent?",
+        "ideal_answer": "Gradient descent is an optimization algorithm that iteratively adjusts model parameters in the direction that reduces the loss function.",
+        "keywords": ["gradient descent", "optimization", "parameters", "loss"]
+      },
+      {
+        "id": 3,
+        "question": "What is regularization in machine learning?",
+        "ideal_answer": "Regularization adds a penalty to the model objective to discourage overly complex models and reduce overfitting.",
+        "keywords": ["regularization", "overfitting", "penalty", "complexity"]
+      },
+      {
+        "id": 4,
+        "question": "What is transfer learning?",
+        "ideal_answer": "Transfer learning uses knowledge learned by a model on one task or dataset as a starting point for another related task.",
+        "keywords": ["transfer learning", "pretrained", "model", "knowledge"]
+      },
+      {
+        "id": 5,
+        "question": "What is the purpose of cross-validation?",
+        "ideal_answer": "Cross-validation evaluates how well a machine learning model generalizes by training and testing it across multiple partitions of the dataset.",
+        "keywords": ["cross-validation", "evaluation", "training", "testing", "generalization"]
+      }
+    ]
+  },
+
+  "Backend-Developer": {
+    "Easy": [
+      {
+        "id": 1,
+        "question": "What is a backend?",
+        "ideal_answer": "The backend is the server-side part of an application that handles business logic, data processing, authentication, and communication with databases.",
+        "keywords": ["backend", "server", "business logic", "database"]
+      },
+      {
+        "id": 2,
+        "question": "What is an HTTP request?",
+        "ideal_answer": "An HTTP request is a message sent by a client to a server to request or submit resources or data.",
+        "keywords": ["HTTP", "request", "client", "server"]
+      },
+      {
+        "id": 3,
+        "question": "What is a database?",
+        "ideal_answer": "A database is an organized collection of data that can be stored, accessed, updated, and managed efficiently.",
+        "keywords": ["database", "data", "storage", "management"]
+      },
+      {
+        "id": 4,
+        "question": "What is an endpoint?",
+        "ideal_answer": "An endpoint is a specific URL or route through which a client can interact with a backend service.",
+        "keywords": ["endpoint", "URL", "route", "API"]
+      },
+      {
+        "id": 5,
+        "question": "What is JSON?",
+        "ideal_answer": "JSON is a lightweight text-based data format commonly used to exchange structured data between applications.",
+        "keywords": ["JSON", "data", "format", "exchange"]
+      }
+    ],
+    "Medium": [
+      {
+        "id": 1,
+        "question": "What is a REST API?",
+        "ideal_answer": "A REST API is an API designed around resources and standard HTTP methods for communication between systems.",
+        "keywords": ["REST", "API", "resources", "HTTP"]
+      },
+      {
+        "id": 2,
+        "question": "What is the difference between GET and POST?",
+        "ideal_answer": "GET is generally used to retrieve data, while POST is generally used to submit data to the server.",
+        "keywords": ["GET", "POST", "retrieve", "submit"]
+      },
+      {
+        "id": 3,
+        "question": "What is database normalization?",
+        "ideal_answer": "Database normalization organizes data into related tables to reduce unnecessary duplication and improve consistency.",
+        "keywords": ["normalization", "database", "redundancy", "consistency"]
+      },
+      {
+        "id": 4,
+        "question": "What is middleware?",
+        "ideal_answer": "Middleware is software that runs between a request and the final application handler and can perform tasks such as authentication, logging, or request processing.",
+        "keywords": ["middleware", "request", "authentication", "logging"]
+      },
+      {
+        "id": 5,
+        "question": "What is authentication?",
+        "ideal_answer": "Authentication is the process of verifying the identity of a user or system.",
+        "keywords": ["authentication", "identity", "user", "verification"]
+      }
+    ],
+    "Hard": [
+      {
+        "id": 1,
+        "question": "What is database indexing?",
+        "ideal_answer": "A database index is a data structure that improves the speed of data retrieval operations at the cost of additional storage and maintenance overhead.",
+        "keywords": ["index", "database", "query", "retrieval"]
+      },
+      {
+        "id": 2,
+        "question": "What is caching?",
+        "ideal_answer": "Caching stores frequently accessed data in a faster storage layer so that future requests can be served more quickly.",
+        "keywords": ["cache", "performance", "storage", "requests"]
+      },
+      {
+        "id": 3,
+        "question": "What is database transaction management?",
+        "ideal_answer": "Transaction management ensures that a group of database operations is handled reliably, commonly using properties such as atomicity, consistency, isolation, and durability.",
+        "keywords": ["transaction", "ACID", "atomicity", "consistency", "isolation", "durability"]
+      },
+      {
+        "id": 4,
+        "question": "What is horizontal scaling?",
+        "ideal_answer": "Horizontal scaling increases system capacity by adding more servers or application instances rather than increasing the resources of a single server.",
+        "keywords": ["horizontal scaling", "servers", "instances", "capacity"]
+      },
+      {
+        "id": 5,
+        "question": "What is rate limiting?",
+        "ideal_answer": "Rate limiting restricts how many requests a client can make within a specified period to protect services from excessive traffic or abuse.",
+        "keywords": ["rate limiting", "requests", "traffic", "API"]
+      }
+    ]
+  },
+
+  "Software-tester": {
+    "Easy": [
+      {
+        "id": 1,
+        "question": "What is software testing?",
+        "ideal_answer": "Software testing is the process of evaluating software to identify defects and verify that it meets specified requirements.",
+        "keywords": ["testing", "defects", "requirements"]
+      },
+      {
+        "id": 2,
+        "question": "What is a test case?",
+        "ideal_answer": "A test case is a documented set of conditions, inputs, steps, and expected results used to verify a software feature.",
+        "keywords": ["test case", "inputs", "steps", "expected result"]
+      },
+      {
+        "id": 3,
+        "question": "What is a bug?",
+        "ideal_answer": "A bug is a defect or error in software that causes it to behave differently from the expected behavior.",
+        "keywords": ["bug", "defect", "error", "expected behavior"]
+      },
+      {
+        "id": 4,
+        "question": "What is manual testing?",
+        "ideal_answer": "Manual testing is the process of testing software by executing test cases manually without using automated testing scripts.",
+        "keywords": ["manual testing", "test cases", "manual"]
+      },
+      {
+        "id": 5,
+        "question": "What is automation testing?",
+        "ideal_answer": "Automation testing uses software tools and scripts to execute tests and compare actual results with expected results.",
+        "keywords": ["automation", "testing", "scripts", "tools"]
+      }
+    ],
+    "Medium": [
+      {
+        "id": 1,
+        "question": "What is regression testing?",
+        "ideal_answer": "Regression testing checks that recent software changes have not introduced defects into existing functionality.",
+        "keywords": ["regression", "changes", "existing functionality"]
+      },
+      {
+        "id": 2,
+        "question": "What is the difference between verification and validation?",
+        "ideal_answer": "Verification checks whether software is built according to specifications, while validation checks whether it satisfies actual user needs.",
+        "keywords": ["verification", "validation", "specification", "user needs"]
+      },
+      {
+        "id": 3,
+        "question": "What is integration testing?",
+        "ideal_answer": "Integration testing verifies that different modules or components work correctly when combined.",
+        "keywords": ["integration testing", "modules", "components"]
+      },
+      {
+        "id": 4,
+        "question": "What is boundary value analysis?",
+        "ideal_answer": "Boundary value analysis tests values at and around the boundaries of valid input ranges because defects often occur near boundaries.",
+        "keywords": ["boundary", "input", "range", "testing"]
+      },
+      {
+        "id": 5,
+        "question": "What is severity versus priority?",
+        "ideal_answer": "Severity describes the technical impact of a defect, while priority describes how urgently the defect should be fixed.",
+        "keywords": ["severity", "priority", "defect", "impact"]
+      }
+    ],
+    "Hard": [
+      {
+        "id": 1,
+        "question": "What is performance testing?",
+        "ideal_answer": "Performance testing evaluates how a system behaves in terms of response time, throughput, stability, and resource usage under different workloads.",
+        "keywords": ["performance", "response time", "throughput", "workload"]
+      },
+      {
+        "id": 2,
+        "question": "What is load testing?",
+        "ideal_answer": "Load testing evaluates system behavior under an expected or specified level of concurrent users or requests.",
+        "keywords": ["load testing", "users", "requests", "performance"]
+      },
+      {
+        "id": 3,
+        "question": "What is stress testing?",
+        "ideal_answer": "Stress testing evaluates how a system behaves under workloads beyond its normal operating capacity.",
+        "keywords": ["stress testing", "workload", "capacity"]
+      },
+      {
+        "id": 4,
+        "question": "What is end-to-end testing?",
+        "ideal_answer": "End-to-end testing validates complete application workflows from start to finish across the relevant components and systems.",
+        "keywords": ["end-to-end", "workflow", "components", "system"]
+      },
+      {
+        "id": 5,
+        "question": "What is test-driven development?",
+        "ideal_answer": "Test-driven development is a development approach where tests are written before implementation, followed by code that makes the tests pass and subsequent refactoring.",
+        "keywords": ["TDD", "tests", "implementation", "refactoring"]
+      }
+    ]
+  },
+
+  "DevOps-Developer": {
+    "Easy": [
+      {
+        "id": 1,
+        "question": "What is DevOps?",
+        "ideal_answer": "DevOps is a set of practices that promotes collaboration between development and operations teams while using automation to improve software delivery and reliability.",
+        "keywords": ["DevOps", "development", "operations", "automation"]
+      },
+      {
+        "id": 2,
+        "question": "What is version control?",
+        "ideal_answer": "Version control is a system for tracking changes to files and source code and supporting collaboration among developers.",
+        "keywords": ["version control", "Git", "changes", "collaboration"]
+      },
+      {
+        "id": 3,
+        "question": "What is Docker?",
+        "ideal_answer": "Docker is a platform used to package applications and their dependencies into portable containers.",
+        "keywords": ["Docker", "containers", "dependencies"]
+      },
+      {
+        "id": 4,
+        "question": "What is CI/CD?",
+        "ideal_answer": "CI/CD refers to practices that automate code integration, testing, and software delivery or deployment.",
+        "keywords": ["CI", "CD", "integration", "deployment", "automation"]
+      },
+      {
+        "id": 5,
+        "question": "What is cloud computing?",
+        "ideal_answer": "Cloud computing provides computing resources such as servers, storage, databases, and networking over the internet.",
+        "keywords": ["cloud", "servers", "storage", "internet"]
+      }
+    ],
+    "Medium": [
+      {
+        "id": 1,
+        "question": "What is continuous integration?",
+        "ideal_answer": "Continuous integration is the practice of frequently integrating code changes into a shared repository and automatically building and testing them.",
+        "keywords": ["continuous integration", "CI", "build", "testing"]
+      },
+      {
+        "id": 2,
+        "question": "What is a Docker container?",
+        "ideal_answer": "A Docker container is an isolated runtime environment that packages an application with its required dependencies.",
+        "keywords": ["Docker", "container", "runtime", "dependencies"]
+      },
+      {
+        "id": 3,
+        "question": "What is infrastructure as code?",
+        "ideal_answer": "Infrastructure as code manages infrastructure using machine-readable configuration files instead of manually configuring resources.",
+        "keywords": ["IaC", "infrastructure", "configuration", "automation"]
+      },
+      {
+        "id": 4,
+        "question": "What is a deployment pipeline?",
+        "ideal_answer": "A deployment pipeline is an automated sequence of stages used to build, test, and deploy software.",
+        "keywords": ["pipeline", "build", "test", "deploy"]
+      },
+      {
+        "id": 5,
+        "question": "What is monitoring in DevOps?",
+        "ideal_answer": "Monitoring continuously observes application and infrastructure metrics, logs, and health indicators to detect problems and maintain reliability.",
+        "keywords": ["monitoring", "metrics", "logs", "infrastructure"]
+      }
+    ],
+    "Hard": [
+      {
+        "id": 1,
+        "question": "What is Kubernetes?",
+        "ideal_answer": "Kubernetes is a container orchestration platform used to deploy, manage, scale, and maintain containerized applications.",
+        "keywords": ["Kubernetes", "containers", "orchestration", "scaling"]
+      },
+      {
+        "id": 2,
+        "question": "What is blue-green deployment?",
+        "ideal_answer": "Blue-green deployment maintains two production environments and switches traffic from the old environment to the new one after validation.",
+        "keywords": ["blue-green", "deployment", "production", "traffic"]
+      },
+      {
+        "id": 3,
+        "question": "What is a rolling deployment?",
+        "ideal_answer": "A rolling deployment gradually replaces old application instances with new ones so that the entire application does not need to be taken offline at once.",
+        "keywords": ["rolling deployment", "instances", "application", "downtime"]
+      },
+      {
+        "id": 4,
+        "question": "What is container orchestration?",
+        "ideal_answer": "Container orchestration automates the deployment, scaling, networking, scheduling, and management of containers across infrastructure.",
+        "keywords": ["container orchestration", "deployment", "scaling", "networking"]
+      },
+      {
+        "id": 5,
+        "question": "What is high availability?",
+        "ideal_answer": "High availability is the ability of a system to remain operational and accessible for a high percentage of time, often using redundancy and failover mechanisms.",
+        "keywords": ["high availability", "redundancy", "failover", "uptime"]
+      }
+    ]
+  },
+
+  "Data-Analyst": {
+    "Easy": [
+      {
+        "id": 1,
+        "question": "What is data analysis?",
+        "ideal_answer": "Data analysis is the process of inspecting, cleaning, transforming, and interpreting data to obtain useful information and support decisions.",
+        "keywords": ["data analysis", "cleaning", "transforming", "interpretation"]
+      },
+      {
+        "id": 2,
+        "question": "What is the mean?",
+        "ideal_answer": "The mean is calculated by adding all values and dividing their sum by the number of values.",
+        "keywords": ["mean", "average", "sum"]
+      },
+      {
+        "id": 3,
+        "question": "What is the median?",
+        "ideal_answer": "The median is the middle value of an ordered dataset, or the average of the two middle values when there is an even number of observations.",
+        "keywords": ["median", "middle", "ordered"]
+      },
+      {
+        "id": 4,
+        "question": "What is data visualization?",
+        "ideal_answer": "Data visualization represents data using charts, graphs, or other visual forms to make patterns and trends easier to understand.",
+        "keywords": ["visualization", "charts", "graphs", "trends"]
+      },
+      {
+        "id": 5,
+        "question": "What is data cleaning?",
+        "ideal_answer": "Data cleaning identifies and corrects missing, duplicate, inconsistent, or incorrect data to improve data quality.",
+        "keywords": ["data cleaning", "missing", "duplicate", "quality"]
+      }
+    ],
+    "Medium": [
+      {
+        "id": 1,
+        "question": "What is the difference between correlation and causation?",
+        "ideal_answer": "Correlation indicates that variables are associated, while causation means that a change in one variable directly produces a change in another.",
+        "keywords": ["correlation", "causation", "variables", "relationship"]
+      },
+      {
+        "id": 2,
+        "question": "What is an outlier?",
+        "ideal_answer": "An outlier is an observation that is unusually far from the other values in a dataset.",
+        "keywords": ["outlier", "dataset", "unusual", "values"]
+      },
+      {
+        "id": 3,
+        "question": "What is standard deviation?",
+        "ideal_answer": "Standard deviation measures how spread out values are around their mean.",
+        "keywords": ["standard deviation", "spread", "mean", "variation"]
+      },
+      {
+        "id": 4,
+        "question": "What is SQL used for?",
+        "ideal_answer": "SQL is used to query, insert, update, delete, and manage data in relational databases.",
+        "keywords": ["SQL", "database", "query", "data"]
+      },
+      {
+        "id": 5,
+        "question": "What is a dashboard?",
+        "ideal_answer": "A dashboard is a visual interface that presents important metrics, charts, and information in a consolidated form for monitoring and decision making.",
+        "keywords": ["dashboard", "metrics", "charts", "decision making"]
+      }
+    ],
+    "Hard": [
+      {
+        "id": 1,
+        "question": "What is hypothesis testing?",
+        "ideal_answer": "Hypothesis testing is a statistical method used to evaluate evidence from sample data and determine whether there is sufficient evidence to reject a null hypothesis.",
+        "keywords": ["hypothesis testing", "sample", "null hypothesis", "evidence"]
+      },
+      {
+        "id": 2,
+        "question": "What is p-value?",
+        "ideal_answer": "A p-value is the probability, under the null hypothesis, of observing a result at least as extreme as the one obtained.",
+        "keywords": ["p-value", "null hypothesis", "probability", "statistical"]
+      },
+      {
+        "id": 3,
+        "question": "What is regression analysis?",
+        "ideal_answer": "Regression analysis is a statistical technique used to model relationships between a dependent variable and one or more independent variables.",
+        "keywords": ["regression", "dependent variable", "independent variable", "relationship"]
+      },
+      {
+        "id": 4,
+        "question": "What is sampling bias?",
+        "ideal_answer": "Sampling bias occurs when the method used to select a sample causes it to systematically differ from the population it is intended to represent.",
+        "keywords": ["sampling bias", "sample", "population", "selection"]
+      },
+      {
+        "id": 5,
+        "question": "How would you handle missing data?",
+        "ideal_answer": "Missing data can be handled by understanding why values are missing and then choosing an appropriate approach such as removing records, imputing values, or using models that can handle missing values.",
+        "keywords": ["missing data", "imputation", "remove", "analysis"]
+      }
+    ]
+  }
+}
